@@ -8,7 +8,7 @@ pipeline {
             }
             post {
                 always {
-                    mail bcc: '', body: 'jenkins welcome', cc: '', from: '', replyTo: '', subject: 'Jenkins -CICD', to: 'balajis8895@gmail.com'
+                    mail bcc: '', body: 'jenkins welcomes you', cc: '', from: '', replyTo: '', subject: 'Jenkins -CICD', to: 'balajis8895@gmail.com'
                 }
                
             }
